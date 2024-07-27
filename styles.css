@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('profile.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #fff; /* Set default text color to white for better visibility */
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.7); /* Add a semi-transparent background for better readability */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+}
+
+.input-container {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#todo-input, #due-date-input {
+    flex: 2;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+    background: rgba(255, 255, 255, 0.8);
+    color: #000;
+}
+
+#add-btn {
+    padding: 10px;
+    border: none;
+    background: #28a745;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#add-btn:hover {
+    background: #218838;
+}
+
+#todo-list {
+    list-style: none;
+    padding: 0;
+}
+
+.todo-item {
+    background: rgba(255, 
